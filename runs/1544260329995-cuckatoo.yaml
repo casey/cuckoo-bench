@@ -1,0 +1,62 @@
+---
+repository: "https://github.com/tromp/cuckoo.git"
+revision: master
+commit: 739a998a4271343c45147d8d6dbe2cf52f41ca09
+algorithm: Cuckatoo
+size: 29
+edge_expansion_round: 0
+device: GeForce RTX 2080 Ti with 10GB @ 352 bits x 7000MHz
+description: "Looking for 42-cycle on cuckatoo29(\"\",0-9) with 50% edges, 64*64 buckets, 176 trims, and 64 thread blocks."
+memory: Using 6976MB of global memory.
+solutions_found: 0
+graphs:
+  - nonce: 0
+    output: "nonce 0 k0 k1 k2 k3 a34c6a2bdaa03a14 d736650ae53eee9e 9a22f05e3bffed5e b8d55478fa3a606d\nSeeding completed in 37 + 27 ms\n  4-cycle found\n176 trims 164 ms 67993 edges 7 ms total 171 ms\nTime: 172 ms"
+    solve_time_ms: 171
+    graphs_per_second: 0.5847953216374269
+    solutions_found: 0
+  - nonce: 1
+    output: "nonce 1 k0 k1 k2 k3 be6c0ae25622e409 ede28d78411671d4 74ffaa51c7aa70ac 2ab552193088c87a\nSeeding completed in 31 + 20 ms\n  2-cycle found\n176 trims 133 ms 59340 edges 5 ms total 138 ms\nTime: 139 ms"
+    solve_time_ms: 138
+    graphs_per_second: 0.7246376811594203
+    solutions_found: 0
+  - nonce: 2
+    output: "nonce 2 k0 k1 k2 k3 543485efe8555e24 2d56d531df445967 821a4361f6f57e4 2eefbb55f1490553\nSeeding completed in 26 + 21 ms\n  4-cycle found\n  38-cycle found\n176 trims 131 ms 64658 edges 6 ms total 137 ms\nTime: 137 ms"
+    solve_time_ms: 137
+    graphs_per_second: 0.7299270072992701
+    solutions_found: 0
+  - nonce: 3
+    output: "nonce 3 k0 k1 k2 k3 5d869ae27494696c cbd3d38a013269 ba7c8d12fef80ffc 955b4761ba671c90\nSeeding completed in 26 + 20 ms\n176 trims 130 ms 54548 edges 5 ms total 135 ms\nTime: 135 ms"
+    solve_time_ms: 135
+    graphs_per_second: 0.7407407407407407
+    solutions_found: 0
+  - nonce: 4
+    output: "nonce 4 k0 k1 k2 k3 8f593cc09c669cb9 8f050519b946b0a 51e5183ef55c246f e2c928f1b6fcd8c0\nSeeding completed in 26 + 21 ms\n176 trims 131 ms 67019 edges 6 ms total 137 ms\nTime: 137 ms"
+    solve_time_ms: 137
+    graphs_per_second: 0.7299270072992701
+    solutions_found: 0
+  - nonce: 5
+    output: "nonce 5 k0 k1 k2 k3 799e44a827e86345 2fb8339b6210d9ae bc1499774d8b80d5 672972b5c29e3401\nSeeding completed in 26 + 21 ms\n  18-cycle found\n176 trims 131 ms 62779 edges 6 ms total 137 ms\nTime: 137 ms"
+    solve_time_ms: 137
+    graphs_per_second: 0.7299270072992701
+    solutions_found: 0
+  - nonce: 6
+    output: "nonce 6 k0 k1 k2 k3 848726caa726cb62 99ef1cb697424e37 7a588cccbdf97a19 d2322df1b4982e77\nSeeding completed in 26 + 20 ms\n  4-cycle found\n  4-cycle found\n  12-cycle found\n  26-cycle found\n  8-cycle found\n176 trims 130 ms 65131 edges 6 ms total 136 ms\nTime: 137 ms"
+    solve_time_ms: 136
+    graphs_per_second: 0.7352941176470589
+    solutions_found: 0
+  - nonce: 7
+    output: "nonce 7 k0 k1 k2 k3 e1a9db0a3c0febde 5217c17370e90996 876375a3b56f19cc 288821230e8bc959\nSeeding completed in 26 + 20 ms\n  32-cycle found\n176 trims 130 ms 69414 edges 7 ms total 137 ms\nTime: 137 ms"
+    solve_time_ms: 137
+    graphs_per_second: 0.7299270072992701
+    solutions_found: 0
+  - nonce: 8
+    output: "nonce 8 k0 k1 k2 k3 e887f5b75a21ee32 93f2db86af87b9ce c4effacacf573e88 5a41208f467f8e41\nSeeding completed in 26 + 21 ms\n  2-cycle found\n  20-cycle found\n  18-cycle found\n  8-cycle found\n  16-cycle found\n176 trims 131 ms 78293 edges 8 ms total 139 ms\nTime: 139 ms"
+    solve_time_ms: 139
+    graphs_per_second: 0.7194244604316546
+    solutions_found: 0
+  - nonce: 9
+    output: "nonce 9 k0 k1 k2 k3 5952591849c8c5f7 fdf6b4aa3335fad5 fb11814cb76c01b4 c7405dbe8c2433a3\nSeeding completed in 26 + 21 ms\n176 trims 131 ms 69572 edges 7 ms total 138 ms"
+    solve_time_ms: 138
+    graphs_per_second: 0.7246376811594203
+    solutions_found: 0
